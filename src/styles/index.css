@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color:  hsl(185, 75%, 39%);
+}
+
+main{
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    overflow: hidden;
+
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+#foto-encima{
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+
+#foto-encima img{
+    width: 100%;
+}
+
+#foto-de-pefil{
+    width: 100%;
+
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    margin-bottom: 200px;
+}
+#foto-de-pefil img{
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+#infs{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top: 50px;
+
+    gap: 20px;
+
+    margin-bottom: 30px;
+}
+
+#nmes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#nmes h1{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+#cor-cinza{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+#nmes p{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+#infs-likes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.infs-liks{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;font-family: 'Kumbh Sans', sans-serif;
+
+    gap: 10px;
+}
+.infs-likes h2{
+    font-weight: 700;
+}
+.infs-likes p{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+hr{
+    width: 100%;
+
+    border: 0.1px solid rgba(0, 0, 0, 0.158);
+
+    margin: 10px 0px;
+}
